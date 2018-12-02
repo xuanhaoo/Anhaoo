@@ -1,22 +1,25 @@
+/*
 package dayTwo;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
-import sun.misc.BASE64Decoder;
-import sun.misc.BASE64Encoder;
 
+*/
 /**
  * AES 是一种可逆加密算法，对用户的敏感信息加密处理
  * 对原始数据进行AES加密后，在进行Base64编码转化；
  * 正确
- */
+ *//*
+
 public class AesCBC {
-    /*已确认
+    */
+/*已确认
     * 加密用的Key 可以用26个字母和数字组成
     * 此处使用AES-128-CBC加密模式，key需要为16位。
-    */
+    *//*
+
     private static String sKey="1234567890123456";
     private static String ivParameter="1234567890123456";
     private static AesCBC instance=null;
@@ -72,3 +75,4 @@ public class AesCBC {
         System.out.println("解密后的字串是：" + DeString);
     }
 }
+*/
